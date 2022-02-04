@@ -15,6 +15,6 @@ export default class Age {
   }
 
   calcLifeExpect() {
-
+    this.earthLife = 72;
   }
 }

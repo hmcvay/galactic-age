@@ -5,6 +5,7 @@ let age;
 beforeEach(() => {
   age = new Age(5);
   age.calcAges();
+  age.calcLifeExpect();
 });
 
 describe ('Age', () => {
