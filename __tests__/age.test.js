@@ -5,7 +5,6 @@ let age;
 beforeEach(() => {
   age = new Age(30);
   age.calcAges();
-  age.calcLifeExpect();
 });
 
 describe ('Age', () => {
@@ -35,35 +34,36 @@ describe ('calcAges', () => {
 
 });
 
-//these should actually be methods WITHIN each planet... hmmm
-describe ('calcLifeExpect', () => {
+describe ('calcLifeOnMercury', () => {
   
-  test('should calculate life expectancy for earthlings based of age on Earth', () => {
-    expect(age.earthLifeExpect).toEqual(72)
+  beforeEach(() => {
+    age.calcLifeOnMercury();
   });
 
   test('should calculate years left of life based on age on Mercury', () => {
     expect(age.mercuryLifeExpect).toEqual(-53)
   });
 
-  test('should calculate years left of life based on age on Venus', () => {
-    expect(age.venusLifeExpect).toEqual(24)
-  });
+})
 
-  test('should calculate years left of life based on age on Mars', () => {
-    expect(age.marsLifeExpect).toEqual(16)
-  });
-
-  test('should calculate years left of life based on age on Jupiter', () => {
-    expect(age.jupiterLifeExpect).toEqual(-284)
-  });
+//these should actually be methods WITHIN each planet... hmmm
+// describe ('calcLifeExpect', () => {
   
-});
+//   test('should calculate life expectancy for earthlings based of age on Earth', () => {
+//     expect(age.earthLifeExpect).toEqual(72)
+//   });
 
-//these too...
-describe ('expectancySurpassed', () => {
+//   test('should calculate years left of life based on age on Venus', () => {
+//     expect(age.venusLifeExpect).toEqual(24)
+//   });
 
-  test ('should return true if life expectancy number is negative', () => {
-    expect()
-  });
-});
+//   test('should calculate years left of life based on age on Mars', () => {
+//     expect(age.marsLifeExpect).toEqual(16)
+//   });
+
+//   test('should calculate years left of life based on age on Jupiter', () => {
+//     expect(age.jupiterLifeExpect).toEqual(-284)
+//   });
+  
+// });
+

@@ -14,11 +14,16 @@ export default class Age {
     this.jupiterAge = Math.round(this.earthAge * 11.86);
   }
 
-  calcLifeExpect() {
-    this.earthLifeExpect = 72;
-    this.mercuryLifeExpect = 72 - this.mercuryAge;
-    this.venusLifeExpect = 72 - this.venusAge;
-    this.marsLifeExpect = 72 - this.marsAge;
-    this.jupiterLifeExpect = 72 - this.jupiterAge;
+  calcLifeOnMercury () {
+
   }
 }
+
+//   calcLifeExpect() {
+//     this.earthLifeExpect = 72;
+//     this.mercuryLifeExpect = 72 - this.mercuryAge;
+//     this.venusLifeExpect = 72 - this.venusAge;
+//     this.marsLifeExpect = 72 - this.marsAge;
+//     this.jupiterLifeExpect = 72 - this.jupiterAge;
+//   }
+// }
