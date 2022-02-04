@@ -16,6 +16,6 @@ export default class Age {
   }
 
   calcJupiterAge() {
-    
+    return Math.round(this.earthAge * 11.86)
   }
 }
