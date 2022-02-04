@@ -17,5 +17,6 @@ export default class Age {
   calcLifeExpect() {
     this.earthLifeExpect = 72;
     this.mercuryLifeExpect = 72 - this.mercuryAge;
+    
   }
 }
