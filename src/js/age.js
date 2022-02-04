@@ -8,6 +8,6 @@ export default class Age {
   }
 
   calcVenusAge() {
-    
+    return this.earthAge/.62
   }
 }

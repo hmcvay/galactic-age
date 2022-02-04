@@ -17,6 +17,6 @@ describe ('Age', () => {
   });
 
   test('should calculate Venus age based on Earth age', () => {
-    expect(age.calcVenusAge()).toEqual(1.612903225806452)
+    expect(age.calcVenusAge()).toEqual(1.6129032258064517)
   })
 });
