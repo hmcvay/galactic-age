@@ -14,4 +14,8 @@ export default class Age {
   calcMarsAge() {
     return Math.round(this.earthAge * 1.88)
   }
+
+  calcJupiterAge() {
+    
+  }
 }
