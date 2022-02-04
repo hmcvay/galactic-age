@@ -44,5 +44,9 @@ describe ('calcLifeExpect', () => {
   test('should calculate years left of life based on age on Mercury', () => {
     expect(age.mercuryLifeExpect).toEqual(51)
   });
+
+  test('should calculate years left of life based on age on Venus', () => {
+    expect(age.venusLifeExpect).toEqual(64)
+  })
   
 });
