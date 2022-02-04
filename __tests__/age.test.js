@@ -17,6 +17,6 @@ describe ('Age', () => {
   });
 
   test('should calculate Venus age based on Earth age', () => {
-    expect(age.calcVenusAge()).toEqual(1.6129032258064517)
+    expect(age.calcVenusAge()).toEqual(1.6129032258064517) // annoyed with having to input EXACT decimal... looking up a method to round numbers to 1 or 2 decimal points..
   })
 });
