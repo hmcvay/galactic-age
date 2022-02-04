@@ -47,6 +47,10 @@ describe ('calcLifeExpect', () => {
 
   test('should calculate years left of life based on age on Venus', () => {
     expect(age.venusLifeExpect).toEqual(64)
-  })
+  });
+
+  test('should calculate years left of life based on age on Mars', () => {
+    expect(age.marsLifeExpect).toEqual(63)
+  });
   
 });
