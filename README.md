@@ -1,31 +1,47 @@
 # Super Galactic Age Calculator
+<br>
 
-#### (Brief Description of Application)
+#### This application calculates the age of a user on various planets within our solar system.
+<br>
 
-#### By (Your Name Here)
+#### By Hayley McVay <https://github.com/hmcvay>
+<br>
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _JavaScript_
+* _jQuery_
+* _HTML_
+* _CSS_
+* _Webpack_
+* _ESLint_
+* _Jest_
+* _Babel_
+* _Bootstrap_
+<br>
 
 ## Description
+This application takes an age from the user and computes what their age would be on different planets, as well as computing how many years left they would have left to live on said planet, based of life expectancy statistics.
+<br>
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository to your desktop_
+* _Navigate to the top level of this directory_
+* _Open repository in vsCode (or similar program)_
+* _To install necessary dependencies, run ` $ npm install ` and ` $ npm run build ` in your terminal_
+* _Then run ` $ npm run test ` to see tests for application's business logic_
+* _Once tested, and all tests remain passing, run ` $ npm run start ` to launch the live server in your browser._
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _None so far._
+<br>
 
 ## License
 
-## Contact Information
+[ISC](https://choosealicense.com/licenses/isc)
+
+_For any problems, please file an issue on Github. Pull Requests welcome._
+
+Copyright (c) _2022_ _Hayley McVay_
