@@ -35,6 +35,7 @@ describe ('calcAges', () => {
 
 });
 
+//these should actually be methods WITHIN each planet... hmmm
 describe ('calcLifeExpect', () => {
   
   test('should calculate life expectancy for earthlings based of age on Earth', () => {
@@ -59,6 +60,10 @@ describe ('calcLifeExpect', () => {
   
 });
 
-describe ('checkNegative', () => {
+//these too...
+describe ('expectancySurpassed', () => {
 
-})
+  test ('should return true if life expectancy number is negative', () => {
+    expect()
+  });
+});
