@@ -9,6 +9,10 @@ describe ('Age', () => {
   });
 
   test('should construct Age object', () => {
-    expect(age).toEqual(30)
+    expect(age.earthAge).toEqual(30)
+  });
+
+  test('should calculate Mercury age based on Earth age', () => {
+    expect(age.calcMercuryAge()).toEqual(125)
   });
 });
