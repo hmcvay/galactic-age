@@ -27,4 +27,9 @@ describe ('Age', () => {
   test('should calculate Jupiter age based on Earth age', () => {
     expect(age.calcJupiterAge()).toEqual(59)
   });
+
+  test('should return true if user age on planet is greater than life expectancy age', () => {
+    let lifeExpectancy = 78;
+    expect(age.calcLifeExpect()).toEqual("true")
+  });
 });
