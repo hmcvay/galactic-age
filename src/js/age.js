@@ -4,10 +4,10 @@ export default class Age {
   }
 
   calcMercuryAge() {
-    return this.earthAge/.24
+    return Math.round(this.earthAge/.24)
   }
 
   calcVenusAge() {
-    return this.earthAge/.62
+    return Math.round(this.earthAge/.62)
   }
 }
