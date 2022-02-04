@@ -34,6 +34,10 @@ describe ('calcAges', () => {
 
 });
 
-// describe ('calcLifeExpect', () => {
-
-// })
+describe ('calcLifeExpect', () => {
+  
+  test('should calculate life expectancy for earthlings based of age on Earth', () => {
+    expect(age.earthLife).toEqual(72)
+  });
+  
+});
