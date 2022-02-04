@@ -19,5 +19,6 @@ export default class Age {
     this.mercuryLifeExpect = 72 - this.mercuryAge;
     this.venusLifeExpect = 72 - this.venusAge;
     this.marsLifeExpect = 72 - this.marsAge;
+    this.jupiterLifeExpect = 72 - this.jupiterAge;
   }
 }
