@@ -23,4 +23,8 @@ describe ('Age', () => {
   test('should calculate Mars age based on Earth age', () => {
     expect(age.calcMarsAge()).toEqual(9)
   });
+
+  test('should calculate Jupiter age based on Earth age', () => {
+    expect(age.calcJupiterAge()).toEqual(59)
+  });
 });
