@@ -41,8 +41,12 @@ describe ('calcLifeOnMercury', () => {
   });
 
   test('should calculate years left of life based on age on Mercury', () => {
-    expect(age.mercuryLifeExpect).toEqual(-53)
+    expect(age.mercuryYearsLeft).toEqual(-53)
   });
+
+  test('if life expectancy comes back as a negative number, return as positive number of years lived PAST expectancy', () => {
+    expect(age.mercuryYearsPast).toEqual(53)
+  })
 
 })
 
