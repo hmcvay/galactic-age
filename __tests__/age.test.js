@@ -50,6 +50,18 @@ describe ('calcLifeOnMercury', () => {
 
 })
 
+describe ('calcLifeOnVenus', () => {
+
+  beforeEach(() => {
+    age.calcLifeOnVenus();
+  });
+
+  test('should calculate years left of life based on age on Venus', () => {
+    expect(age.venusYearsLeft).toEqual(24)
+  })
+
+})
+
 //these should actually be methods WITHIN each planet... hmmm
 // describe ('calcLifeExpect', () => {
   

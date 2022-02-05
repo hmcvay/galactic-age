@@ -20,6 +20,10 @@ export default class Age {
       this.mercuryYearsPast = -this.mercuryYearsLeft;
     }
   }
+
+  calcLifeOnVenus () {
+    
+  }
 }
 
 //   calcLifeExpect() {
