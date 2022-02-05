@@ -76,10 +76,10 @@ describe ('calcLifeOnMars', () => {
   });
 
   test('should calculate years left of life based on age on Mars', () => {
-    expect(age.MarsYearsLeft).toEqual(56)
+    expect(age.marsYearsLeft).toEqual(16)
   });
 
-})
+});
 
 //these should actually be methods WITHIN each planet... hmmm
 // describe ('calcLifeExpect', () => {
