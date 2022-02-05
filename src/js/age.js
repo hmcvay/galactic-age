@@ -16,6 +16,9 @@ export default class Age {
 
   calcLifeOnMercury () {
     this.mercuryYearsLeft = 72 - this.mercuryAge;
+    if (this.mercuryYearsLeft < 0) {
+      this.mercuryYearsPast = -this.mercuryYearsLeft;
+    }
   }
 }
 
