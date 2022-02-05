@@ -46,9 +46,9 @@ describe ('calcLifeOnMercury', () => {
 
   test('if life expectancy comes back as a negative number, return as positive number of years lived PAST expectancy', () => {
     expect(age.mercuryYearsPast).toEqual(53)
-  })
+  });
 
-})
+});
 
 describe ('calcLifeOnVenus', () => {
 
@@ -59,6 +59,11 @@ describe ('calcLifeOnVenus', () => {
   test('should calculate years left of life based on age on Venus', () => {
     expect(age.venusYearsLeft).toEqual(24)
   });
+
+  test('if life expectancy comes back as a negative number, return as positive number of years lived PAST expectancy', () => {
+    expect(age.venusYearsPast).toEqual(24)
+  });
+
 })
 
 //these should actually be methods WITHIN each planet... hmmm
