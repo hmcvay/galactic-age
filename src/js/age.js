@@ -22,7 +22,7 @@ export default class Age {
   }
 
   calcLifeOnVenus () {
-    
+    this.venusYearsLeft = 72 - this.venusAge;
   }
 }
 
