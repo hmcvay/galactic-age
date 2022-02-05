@@ -61,7 +61,10 @@ describe ('calcLifeOnVenus', () => {
   });
 
   test('if life expectancy comes back as a negative number, return as positive number of years lived PAST expectancy', () => {
-    expect(age.venusYearsPast).toEqual(24)
+    let oldAge = new Age(80);
+    oldAge.calcAges();
+    oldAge.calcLifeOnVenus();
+    expect(oldAge.venusYearsPast).toEqual(57)
   });
 
 })
