@@ -27,6 +27,11 @@ export default class Age {
       this.venusYearsPast = -this.venusYearsLeft;
     }
   }
+
+  calcLifeOnMars () {
+    
+  }
+
 }
 
 //   calcLifeExpect() {
