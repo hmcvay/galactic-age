@@ -102,26 +102,4 @@ describe ('calcLifeOnJupiter', () => {
     expect(age.jupiterYearsPast).toEqual(284);
   })
 
-})
-
-//these should actually be methods WITHIN each planet... hmmm
-// describe ('calcLifeExpect', () => {
-  
-//   test('should calculate life expectancy for earthlings based of age on Earth', () => {
-//     expect(age.earthLifeExpect).toEqual(72)
-//   });
-
-//   test('should calculate years left of life based on age on Venus', () => {
-//     expect(age.venusLifeExpect).toEqual(24)
-//   });
-
-//   test('should calculate years left of life based on age on Mars', () => {
-//     expect(age.marsLifeExpect).toEqual(16)
-//   });
-
-//   test('should calculate years left of life based on age on Jupiter', () => {
-//     expect(age.jupiterLifeExpect).toEqual(-284)
-//   });
-  
-// });
-
+});

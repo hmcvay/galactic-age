@@ -21,7 +21,7 @@
 <br>
 
 ## Description
-This application takes an age from the user and computes what their age would be on different planets, as well as computing how many years left they would have left to live on said planet, based of life expectancy statistics.
+This application takes an age from the user and computes what their age would be on different planets, as well as computing how many years left they would have left to live on said planet, based off life expectancy statistics.
 <br>
 
 ## Setup/Installation Requirements
@@ -31,7 +31,7 @@ This application takes an age from the user and computes what their age would be
 * _Open repository in vsCode (or similar program)_
 * _To install necessary dependencies, run ` $ npm install ` and ` $ npm run build ` in your terminal_
 * _Then run ` $ npm run test ` to see tests for application's business logic_
-* _Once tested, and all tests remain passing, run ` $ npm run start ` to launch the live server in your browser._
+* _Once tested, and all tests remain passing, code base is ready to use_
 
 ## Known Bugs
 

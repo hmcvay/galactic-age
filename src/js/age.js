@@ -43,10 +43,3 @@ export default class Age {
   }
 
 }
-
-//   calcLifeExpect() {
-//     this.earthLifeExpect = 72;
-//     
-//     this.jupiterLifeExpect = 72 - this.jupiterAge;
-//   }
-// }
