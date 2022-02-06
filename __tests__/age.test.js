@@ -79,6 +79,13 @@ describe ('calcLifeOnMars', () => {
     expect(age.marsYearsLeft).toEqual(16)
   });
 
+  test('if life expectancy comes back as a negative number, return as a positive number of years lived PAST life expectancy', () => {
+    let oldAge = new Age(80);
+    oldAge.calcAges();
+    oldAge.calcLifeOnMars();
+    expect(oldAge.marsYearsPast).toEqual(78)
+  });
+
 });
 
 //these should actually be methods WITHIN each planet... hmmm
