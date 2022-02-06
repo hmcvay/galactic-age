@@ -37,6 +37,9 @@ export default class Age {
 
   calcLifeOnJupiter () {
     this.jupiterYearsLeft = 72 - this.jupiterAge;
+    if (this.jupiterYearsLeft < 0) {
+      this.jupiterYearsPast = -this.jupiterYearsLeft;
+    }
   }
 
 }
