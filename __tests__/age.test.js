@@ -98,6 +98,10 @@ describe ('calcLifeOnJupiter', () => {
     expect(age.jupiterYearsLeft).toEqual(-284)
   });
 
+  test('if life expectancy comes back as a negative number, return as a positive number of years lived PAST life expectancy', () => {
+    expect(age.jupiterYearsPast).toEqual(284);
+  })
+
 })
 
 //these should actually be methods WITHIN each planet... hmmm
