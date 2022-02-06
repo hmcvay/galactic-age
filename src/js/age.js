@@ -35,6 +35,10 @@ export default class Age {
     }
   }
 
+  calcLifeOnJupiter () {
+    
+  }
+
 }
 
 //   calcLifeExpect() {
