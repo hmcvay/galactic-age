@@ -30,6 +30,9 @@ export default class Age {
 
   calcLifeOnMars () {
     this.marsYearsLeft = 72 - this.marsAge;
+    if (this.marsYearsLeft < 0) {
+      this.marsYearsPast = -this.marsYearsLeft;
+    }
   }
 
 }
